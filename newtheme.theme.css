@@ -5,7 +5,6 @@
 @import url('https://discordstyles.github.io/Fluent/Icons.css');
 @import url('https://dablulite.github.io/css-snippets/BetterModals/import.css');
 
-
 :root {
 	/* amount of spacing and padding */
 	--spacing: 12px;
@@ -84,8 +83,6 @@
 :root {
 	--embed-line-width: 256px;
 }
-
-.embedWrapper-1MtIDg {}
 
 .embedFull-1HGV2S {
 	border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
@@ -1084,4 +1081,10 @@ a[href="https://support.discord.com"]
 	/* billing transaction history */
 	--primary-660: var(--bg-3);
 	/* search popout "enter" bar */
+}
+
+div.message__80c10.cozyMessage__64ce7.groupStart__56db5.wrapper__09ecc.cozy_f5c119.zalgo__39311 {
+  margin-right: 11px;
+  text-align: left;
+  text-transform: none;
 }
