@@ -5,6 +5,9 @@
 @import url('https://discordstyles.github.io/Fluent/Icons.css');
 @import url('https://feorev.github.io/Themes/Discord/PublicSnippets/ConnectionsColorizer.css');
 @import url('https://dablulite.github.io/css-snippets/BetterModals/import.css');
+@import url('https://dablulite.github.io/css-snippets/RedesignedUserPanel/import.css');
+@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/DiscordLinks.css");
+
 
 :root {
 	/* amount of spacing and padding */
@@ -66,6 +69,57 @@
 	/* change to 'none' to hide moon icon */
 	--discord-icon: none;
 	/* change to 'block' to show default discord icon */
+}
+
+/* Rounded Context Menu */
+.menu_dc52c6, .colorDefault__0b482 { 
+    border-radius: 15px; 
+}
+
+/* Emoji Auto-Fill Animation */
+.base__76a71 {
+    transition: all 0.5s;
+}
+.base__76a71:hover {
+    transition: all 0s;
+    transform: scale(1.02);
+}
+
+/* Pop-out Animation */ 
+.menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
+    animation: custom-menu-animation 250ms ease;
+    transform-origin: top;
+}
+@keyframes custom-menu-animation {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(-20deg);
+    }
+    70% {
+        transform: rotate(380deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.pill-L_aLMQ.bd-selected + .listItemWrapper-3d87LP .homeIcon-r0w4ny {
+    animation: spin 0.8s ease;
+}
+
+.menu_dc52c6, .colorDefault__0b482 { 
+    border-radius: 15px; 
 }
 
 /*Small Member list*/
