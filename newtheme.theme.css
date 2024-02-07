@@ -68,6 +68,33 @@
 	/* change to 'block' to show default discord icon */
 }
 
+/*Small Member list*/
+.container_b2ce9c {
+  transition: 0.3s ease-in-out;
+  margin-right: -180px;
+}
+.container_b2ce9c .membersGroup__85843 {
+  transition: 0.3s ease-in-out;
+  height: 0px!important;
+  margin-top: -25px;
+}
+.container_b2ce9c:hover .membersGroup__85843 {
+  height: unset!important;
+  margin-top: unset!important;
+}
+.container_b2ce9c:hover{
+  margin-right: unset!important;
+}
+
+.edited_b20dd9 {color: rgba(0,0,0,0)} /*Render the original edited text invisible*/
+.edited_b20dd9::before {
+        content: "(✎)"; /*Put the edited icon before the original edited text.*/
+        color: var(--text-muted); /*Give it the same muted color at the edited text.*/
+        font-size: 0.625rem; 
+        font-weight: 400; 
+        line-height: 1;
+}
+
 .reaction_fef95b:has(.reactionInner__4135b[aria-label*="1 reaction"], .reactionInner__4135b[aria-label*="1 super reaction"]) .reactionCount_b49901 {display: none;}
 
 .callContainer_cbde45 [class^=upperContainer_] [class^=toolbar_]::before,
