@@ -1089,3 +1089,45 @@ div.message__80c10.cozyMessage__64ce7.groupStart__56db5.wrapper__09ecc.cozy_f5c1
   text-align: left;
   text-transform: none;
 }
+
+.edited_b20dd9 {color: rgba(0,0,0,0)} /*Render the original edited text invisible*/
+.edited_b20dd9::before {
+        content: "(✎)"; /*Put the edited icon before the original edited text.*/
+        color: var(--text-muted); /*Give it the same muted color at the edited text.*/
+        font-size: 0.625rem; 
+        font-weight: 400; 
+        line-height: 1;
+}
+
+
+
+[class^="sidebar_"] [class^="panels_"] {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border: 1px solid var(--background-modifier-accent);
+  border-radius: 20px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+
+[class^="sidebar_"] [class^="panels_"] [class^="container_"],
+[class^="sidebar_"] [class^="panels_"] [class^="panel_"] {
+  background-color: transparent !important;
+}
+
+[class^="sidebar_"] [class^="panels_"] [class^="container_"] [class^="avatarWrapper_"] + [class^="flex_"] {
+  margin-left: -10px;
+}
+
+#vc-spotify-player {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/* Nitro Theme Shit */
+html.custom-theme-background [class^="sidebar_"] {
+    background: var(--bg-overlay-3);
+}
+html.custom-theme-background [class^="sidebar_"] [class^="panels_"] {
+    background: var(--bg-overlay-1);
+}
