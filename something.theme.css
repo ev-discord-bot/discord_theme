@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://ShadowDevilsAvenged.github.io/SnippetsHere/ChatBubbleTempFix.css');
+@import url('https://davart154.github.io/Themes/Snippets/Colored%20Mentions/ColoredMentionsSource.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
+@import url('https://discordstyles.github.io/Fluent/Icons.css');
+@import url('https://dablulite.github.io/css-snippets/BetterModals/import.css');
+@import url('https://feorev.github.io/Themes/Discord/PublicSnippets/ConnectionsColorizer.css');
+
+:root {
+  /* Spacing and padding */
+  --spacing: 12px;
+  /* Radius of round corners */
+  --roundness: 16px;
+  /* Font */
+  --font: 'figtree';
+  /* Color of green online dot */
+  --online-indicator: var(--accent-2);
+  /* Colors */
+  --accent-1: hsl(190, 80%, 60%);
+  --accent-2: hsl(190, 80%, 48%);
+  --accent-3: hsl(190, 80%, 42%);
+  --accent-4: hsl(190, 80%, 36%);
+  --accent-5: hsl(190, 80%, 30%);
+  --mention: hsla(190, 80%, 52%, 0.1);
+  --mention-hover: hsla(190, 80%, 52%, 0.05);
+  --text-1: hsl(220, 40%, 90%);
+  --text-2: hsl(220, 25%, 70%);
+  --text-3: hsl(220, 15%, 60%);
+  --text-4: hsl(220, 15%, 40%);
+  --text-5: hsl(220, 15%, 25%);
+  --bg-1: hsl(220, 15%, 20%);
+  --bg-2: hsl(220, 15%, 16%);
+  --bg-3: hsl(220, 15%, 13%);
+  --bg-4: hsl(220, 15%, 10%);
+  --hover: hsla(230, 20%, 40%, 0.1);
+  --active: hsla(220, 20%, 40%, 0.2);
+  --message-hover: hsla(220, 0%, 0%, 0.1);
+  --moon-icon: block;
+  --discord-icon: none;
+}
+
+/* Embeds */
+:root {
+  --embed-border-radius: 8px;
+}
+
+.embed-hKpSrO {
+  border-radius: var(--embed-border-radius);
+}
+
+.embed-hKpSrO code {
+  background: var(--background-secondary);
+}
+
+:root {
+  --embed-line-width: 256px;
+}
+
+.embedFull-1HGV2S {
+  border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
+  background: var(--background-secondary);
+}
+
+.grid-1aWVsE {
+  margin-left: calc(-1 * var(--embed-line-width));
+  z-index: 1;
+}
+
+.embedFull-1HGV2S:after,
+.embedFull-1HGV2S:before {
+  content: "";
+  height: 100%;
+  width: var(--embed-line-width);
+  position: absolute;
+  top: 0;
+  left: calc(-1 * var(--embed-line-width));
+}
+
+.embedFull-1HGV2S:after {
+  background: linear-gradient(to right, transparent, var(--background-secondary));
+}
+
+.embedFull-1HGV2S:before {
+  background: var(--background-secondary);
+  opacity: .8;
+}
+
+:root {
+  --font-primary: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  --font-display: var(--font), 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Modify colors */
+div.contents_f41bb2 {
+  margin-bottom: 3px;
+  margin-top: 1px;
+}
+
+#app-mount .container__590e2,
+.privateChannels__93473,
+#app-mount .container_ca50b9,
+.container_b2ceaf {
+  background-color: var(--background-secondary);
+}
+
+.content-region-Scroller,
+.content-region-Sliders {
+  background-color: var(--background-accent);
+}
+
+.divider-3FBTWw,
+.actionBar-uaoCtN {
+  border-color: var(--border-color);
+}
+
+.greyscale-filters-vcA5jb img {
+  filter: grayscale(100%);
+}
+
+/* Miscellaneous */
+.root-SR8cQa {
+  background-color: var(--background-secondary);
+}
+
+:root {
+  --text-color: #DCDDDE;
+}
+
+.text-3X87hT,
+.text-2i4M3e {
+  color: var(--text-color);
+}
+
+.text-3EBtsS,
+.text-2iPmI2 {
+  color: var(--text-color);
+}
