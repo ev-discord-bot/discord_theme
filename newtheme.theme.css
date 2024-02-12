@@ -5,8 +5,6 @@
 @import url('https://discordstyles.github.io/Fluent/Icons.css');
 @import url('https://feorev.github.io/Themes/Discord/PublicSnippets/ConnectionsColorizer.css');
 @import url('https://dablulite.github.io/css-snippets/BetterModals/import.css');
-@import url('https://dablulite.github.io/css-snippets/RedesignedUserPanel/import.css');
-
 
 :root {
 	/* amount of spacing and padding */
@@ -70,26 +68,10 @@
 	/* change to 'block' to show default discord icon */
 }
 
-div.toolbar__88c63 {
-  margin-right: 6px;
-  margin-top: 3px;
-  margin-bottom: -10px;
-}
-
 /* Rounded Context Menu */
 .menu_dc52c6, .colorDefault__0b482 { 
     border-radius: 15px; 
 }
-
-/* Emoji Auto-Fill Animation */
-.base__76a71 {
-    transition: all 0.5s;
-}
-.base__76a71:hover {
-    transition: all 0s;
-    transform: scale(1.02);
-}
-
 .edited_b20dd9 {color: rgba(0,0,0,0)} /*Render the original edited text invisible*/
 .edited_b20dd9::before {
         content: "(✎)"; /*Put the edited icon before the original edited text.*/
