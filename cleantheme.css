@@ -1,7 +1,7 @@
 /**
  * @name CleanModernTheme
  * @author Iminthebibleson
- * @version 2.0
+ * @version 3.0
  * @description Highly modern and fresh new look for discord!
 */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
@@ -486,7 +486,7 @@ a[href="https://support.discord.com"] {
 }
 
 [class^='wordmarkWindows']::after {
-	content: 'Midnight';
+	content: 'Modern Theme';
 	display: block;
 	position: relative;
 	width: 200px;
@@ -496,49 +496,6 @@ a[href="https://support.discord.com"] {
 	font-size: 10px;
 	font-weight: 600;
 	color: var(--text-5);
-}
-
-[class^='typeWindows'] {
-	height: var(--spacing) + 8px;
-}
-
-[class^='winButton']>svg {
-	display: none;
-}
-
-[class^='winButton'] {
-	background: none !important;
-	top: 0;
-	width: 20px;
-	height: 20px;
-	margin: -2px 4px 0px 0px;
-}
-
-[class^='winButton']::after {
-	content: '';
-	height: 12px;
-	width: 12px;
-	border-radius: 12px;
-}
-
-[class^='winButton']:hover::after {
-	filter: brightness(0.8);
-}
-
-[class^='winButton']:active::after {
-	transform: scale(0.9);
-}
-
-[class^='winButtonClose']::after {
-	background-color: hsl(350, 50%, 50%) !important;
-}
-
-[class^='winButtonMinMax']:nth-child(3)::after {
-	background-color: hsl(150, 50%, 50%) !important;
-}
-
-[class^='winButtonMinMax']:nth-child(4)::after {
-	background-color: hsl(50, 50%, 50%) !important;
 }
 
 .childWrapper_a6ce15>svg:not(.favoriteIcon__91c06) {
